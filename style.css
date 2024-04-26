@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.Header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Header__Nav {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.Food-card {
+  margin-top: 20px;
+  text-align: center;
+}
+.Food-card__Dosa,
+.Food-card__Noodles,
+.Food-card__Veg,
+.Food-card__Biryani {
+  display: inline-block;
+  border: solid black 1px;
+  margin-left: 10px;
+  font-size: 10px;
+}
+.Food-card__Button {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.contact-container {
+  background-color: black;
+  color: white;
+  margin-top: 25px;
+
+}
+.contact-container__Button {
+  background-color: yellow;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  width: 500px;
+  
+  margin-bottom: 20px;
+}
+table{
+  display: inline-block;
+}
